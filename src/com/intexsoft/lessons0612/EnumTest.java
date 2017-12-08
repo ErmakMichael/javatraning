@@ -9,6 +9,7 @@ public class EnumTest {
 
 		System.out.println(monday.name());
 		System.out.println(monday.ordinal());
+		System.out.println(titleRu);
 	}
 
 }
