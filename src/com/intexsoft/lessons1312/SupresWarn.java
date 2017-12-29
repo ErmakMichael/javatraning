@@ -7,7 +7,7 @@ public class SupresWarn {
 
 	public void go() {
 
-		@SuppressWarnings("rawtypes")
+		@SuppressWarnings({ "rawtypes", "unused" })
 		List a = new ArrayList();
 
 		@SuppressWarnings("unused")
