@@ -9,7 +9,7 @@ public class Test {
 			return;
 		} catch (MyExeption e) {
 			System.out.println("exeption was caught: " + e.getClass().getSimpleName());
-		} finally {																		// выполняется всегда
+		} finally { // выполняется всегда
 			System.out.println("finally executed");
 		}
 
