@@ -12,6 +12,8 @@ public class CounterTester {
         System.out.println("Counter:" + counter.getCounter());
     }
 }
+
+
 class Counter {
     private long counter = 0L;		
     
