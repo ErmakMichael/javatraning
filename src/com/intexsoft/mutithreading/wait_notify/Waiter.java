@@ -1,4 +1,4 @@
-package com.itacademy.task26.multithreading.step2;
+package com.intexsoft.mutithreading.wait_notify;
 
 public class Waiter implements Runnable {
 

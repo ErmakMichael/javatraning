@@ -1,4 +1,4 @@
-package com.itacademy.task26.multithreading.step2;
+package com.intexsoft.mutithreading.synchronization;
 
 public class CounterTester {
     public static void main(final String[] args) throws InterruptedException {

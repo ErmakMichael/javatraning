@@ -1,4 +1,4 @@
-package com.itacademy.task26.multithreading.step1;
+package com.intexsoft.mutithreading.interruption;
 
 public class Program {
 
