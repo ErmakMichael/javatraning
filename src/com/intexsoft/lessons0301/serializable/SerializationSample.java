@@ -22,7 +22,7 @@ public class SerializationSample {
 	}
 
 	private static void serializeSimpleObjects() throws IOException {
-
+		
 		try (FileOutputStream fos = new FileOutputStream("t.tmp");
 				ObjectOutputStream oos = new ObjectOutputStream(fos);) {
 			oos.writeInt(12345);
@@ -32,9 +32,8 @@ public class SerializationSample {
 
 	}
 
-	private static void deSerializeSimpleObjects()
-
-			throws IOException, ClassNotFoundException {
+	private static void deSerializeSimpleObjects() throws IOException, ClassNotFoundException {
+		
 		FileInputStream fis = new FileInputStream("t.tmp");
 		ObjectInputStream ois = new ObjectInputStream(fis);
 		int i = ois.readInt();
