@@ -5,9 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.Date;
 
-import com.intexsoft.lessons0812.abstractClass.Car;
 
 public class SerializationSample2 {
 
@@ -23,7 +21,7 @@ public class SerializationSample2 {
 				ObjectOutputStream oos = new ObjectOutputStream(fos);) {
 			Car car = new Car();
 
-			System.out.println("before serialization" + car);
+			System.out.println("before serialization \n" + car);
 			oos.writeObject(car);
 		}
 
@@ -33,7 +31,7 @@ public class SerializationSample2 {
 
 		try (FileInputStream fis = new FileInputStream("car.tmp"); ObjectInputStream ois = new ObjectInputStream(fis);) {
 			Car car = (Car) ois.readObject();
-			System.out.println("after deserialization" + car);
+			System.out.println("after deserialization\n" + car);
 
 		}
 	}

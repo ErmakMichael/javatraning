@@ -1,4 +1,4 @@
-package com.intexsoft.lessons0612;
+package com.intexsoft.lessons0612.enum1;
 
 public class EnumTest {
 
