@@ -1,8 +1,12 @@
 package by.itcademy.jd2.jdk8samples._1_lambda.params;
 
 public class ExampleNoParam {
+/*
+     @FunctionalInterface -- проверка интерфейса на наличие только одного
+     абстрактного метода. Используются для лямбда выражений которые работают
+     только с 1 методом
 
-    @FunctionalInterface
+*/    @FunctionalInterface
     interface MyFunctionalInterface {
 
         // A method with no parameter

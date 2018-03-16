@@ -8,6 +8,7 @@ public class ExampleMultipleParam {
 
     public static void main(final String args[]) {
         // lambda expression with multiple arguments
+        // () обязательны
         final StringConcat s = (str1, str2) -> str1 + str2;
         System.out.println("Result: " + s.sconcat("Hello ", "World"));
     }
